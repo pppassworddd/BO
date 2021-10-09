@@ -1,0 +1,41 @@
+<view class="content">
+	<image class='background' src="../../images/月亮1.jpg" mode="aspectFill"></image>
+</view>
+
+<view class ="content">
+    <!-- 用户名 -->
+    <view class="username">
+        <view class="title">用户名：</view>
+         <view class="useid">
+            <input type="text" placeholder="用户名/邮箱/手机号" placeholder-style="color: #9999" />
+         </view>
+    </view>
+    <!-- 分割线 -->
+    <view class="hr"></view>
+    <!-- 密码 -->
+    <view class="username">
+        <view class="title">密码：</view>
+         <view class="useid">
+            <input type="text" placeholder="输入密码" placeholder-style="color: #9999" />
+         </view>
+    </view>
+    <!-- 登录按钮 -->
+    <button class="primary"  bindtap="goToPage" type="default" >登录</button>
+    <!-- 注册导航 -->
+    <view class="register">
+       <navigator oprn-type="navigate" url="/pages/index/index">
+       手机号注册
+       </navigator>
+    </view>
+    <view class="register">
+       <navigator oprn-type="navigate" url="/pages/register/register">
+       邮箱注册
+       </navigator>
+    </view>
+    <view class="register">
+       <navigator oprn-type="navigate" url="/pages/register/register">
+       找回密码
+       </navigator>
+    </view>
+ </view> 
+ 

@@ -1,0 +1,29 @@
+<!--pages/pg1/pg1.wxml-->
+
+<view class="con">
+	<image class='background' src="../../images/中秋.jfif" mode="aspectFill"></image>
+</view>
+<view class="content">
+    <view class="number">
+    <view class="title">设置房间号：</view>
+    <view class="useid">
+    <input type="text" placeholder="输入房间号以让好友找到你" />
+    </view>
+</view>
+<view class="hr"></view>
+<view class="pin">
+    <view class="title">设置密码：</view>
+    <view class="useid">
+    <input type="text" placeholder="输入房间密码（可不填）" />
+    </view>
+</view>
+
+<!--创建按钮-->
+<button type="primary" class ="build">创建房间</button>
+
+
+<!--创建按钮-->
+<navigator open-type="navigate" url="/pages/pg1/price">奖品设置</navigator>
+
+
+</view>
